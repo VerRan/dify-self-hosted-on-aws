@@ -20,6 +20,10 @@ export const props: EnvironmentProps = {
   // useFargateSpot: true,
 
   // Please see EnvironmentProps in lib/environment-props.ts for all the available properties
+  // VPC configuration
+  // vpcid: 'vpc-7e4ee906
+  // Fix the ALB warning by enabling TLS encryption
+  // useCloudFront: true,
 };
 
 const app = new cdk.App();

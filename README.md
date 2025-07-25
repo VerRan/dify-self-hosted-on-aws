@@ -62,6 +62,15 @@ You can open the URL with a browser and get started!
 
 ### Deploy from CloudShell
 
+
+#### 如何更新配置
+* 部署的区域和dify版本，请通过修改cdk.ts更新
+* 如果需要部署在已有VPC，请通过   // vpcid: 'vpc-7e4ee906 参数设置
+* 更多参数更新，可以通过 environment-props.ts 查看
+
+
+
+
 You can use a dedicated script that works even in an environment with limited storage space such as [AWS CloudShell](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html).
 
 In CloudShell, you can just run the following commands:
